@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './Navbar';
 import '../pages/css/HomePage.css';
 import image from '../pages/main home.jpg';
+import image1 from '../pages/Head.jpg';
 import c1 from '../pages/C1.jpg';
 import c2 from '../pages/C2.jpg';
 import c3 from '../pages/C3.jpg';
@@ -21,7 +22,8 @@ const HomePage = () => {
       <Navbar />
       <div className="home-main-container">
         <img
-          src={image}
+          src={image1}
+          
           alt="Main banner"
           className="home-main-banner"
         />

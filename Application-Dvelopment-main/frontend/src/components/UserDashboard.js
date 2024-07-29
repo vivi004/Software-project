@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { Bar, Pie } from 'react-chartjs-2';
-import 'chart.js/auto'; // Required for Chart.js to work
+import 'chart.js/auto'; 
 import '../pages/css/UserDashboard.css'; // Import the CSS file
 import profilePic from '../pages/C1.jpg'; // Ensure this image is present
 import p1 from '../pages/p1.jpg'; // Ensure this image is present

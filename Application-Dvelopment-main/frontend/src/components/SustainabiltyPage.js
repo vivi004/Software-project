@@ -65,3 +65,6 @@ Not creating waste has been a core belief at Tulerie - we have never provided pa
 };
 
 export default SustainabilityPage;
+
+
+

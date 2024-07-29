@@ -12,7 +12,7 @@ const AdminDashboard = () => {
   const dispatch = useDispatch();
   const [activeSection, setActiveSection] = useState('dashboard');
 
-  // Sample data for the charts
+  // Sample data for the charts  
   const lineData = {
     labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
     datasets: [
