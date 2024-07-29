@@ -3,9 +3,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #238be0ea;
+  background-color: #1b1b1dee;
   padding: 1rem 2rem;
   color: white;
+  border: 3px solid #e3e4e6;
 }
 
 .navbar-brand {
@@ -51,7 +52,7 @@
 button {
   width: 170px;
   height: 40px;
-  border: 3px solid #315cfd;
+  border: 3px solid #e7e8e9;
   border-radius: 45px;
   transition: all 0.3s;
   cursor: pointer;
@@ -63,7 +64,7 @@ button {
 }
 
 button:hover {
-  background: #315cfd;
-  color: white;
+  background: #5c5959;
+  color: rgb(0, 0, 0);
   font-size: 1em;
 }

@@ -21,7 +21,7 @@ const Navbar = () => {
    
    alt="Main banner" height='60px' width='70px'
  />
-   <div className="navbar-brand"> Fashion Rental</div>
+   <div className="navbar-brand"> Fashion</div>
    </div>
    <ul className="navbar-links">
         <li>
