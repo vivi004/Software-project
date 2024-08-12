@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-SdpApplication<fashion>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.rollnumber.sdp.SdpApplication",
+            "projectName": "fashion",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
