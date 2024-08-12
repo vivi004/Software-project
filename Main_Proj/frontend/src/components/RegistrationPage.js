@@ -53,7 +53,7 @@ const RegistrationPage = () => {
     }
     else{
       alert("User created successfully");
-      navigate('/login');
+      navigate("/login");
     }
   };
   return (

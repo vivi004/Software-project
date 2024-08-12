@@ -116,7 +116,7 @@ const UserDashboard = () => {
     if (confirmUpdate) {
       const password = prompt('Please enter the password to confirm the update:');
 
-      if (password === "USERDETAILUPDATE") {
+      if (password === "UPDATE") {
         setEditingUser(admin);
         setFormData({
           name: admin.name,
@@ -156,7 +156,7 @@ const UserDashboard = () => {
       <div className="user-sidebar">
         <div className="user-profile">
           <img src={profilePic} alt="Profile" className="user-profile-pic" />
-          <p>Hi, Ibu</p>
+          <p>Welcome...</p>
         </div>
         <nav className="user-nav">
           <button onClick={() => setActiveSection('dashboard')}>Dashboard</button>
@@ -174,7 +174,7 @@ const UserDashboard = () => {
           </div>
           <div className="user-user-info">
             <img src={profilePic} className="user-profile-icon" alt="User Icon" />
-            <span className="user-username">Ibu</span>
+            <span className="user-username">Fashion</span>
           </div>
         </div>
         <div className="user-content">

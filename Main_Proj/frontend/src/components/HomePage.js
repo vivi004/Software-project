@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar';
 import '../pages/css/HomePage.css';
-import image from '../pages/main home.jpg';
+import image from '../pages/Top.jpg';
 import c1 from '../pages/C1.jpg';
 import c2 from '../pages/C2.jpg';
 import c3 from '../pages/C3.jpg';

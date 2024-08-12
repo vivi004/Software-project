@@ -24,38 +24,38 @@ const Navbar = () => {
       <div className="navbar-brand">Fashion Rental</div>
       <ul className="navbar-links">
         <li>
-          <Link to="/">Home</Link>
+         <Link to="/"> <button className='butt'>Home</button></Link>
         </li>
         {!user ? (
           <>
             <li>
-              <Link to="/login">Login</Link>
+              <Link to="/login"><button className='butt'>Login</button></Link>
             </li>
             <li>
-              <Link to="/register">Register</Link>
+            <Link to="/register"><button className='butt'>Register</button></Link>
             </li>
           </>
         ) : (
           <>
             {user.isAdmin ? (
               <li>
-                <Link to="/admin/dashboard">Admin Dashboard</Link>
+                <Link to="/admin/dashboard"><button className='butt'>Admin Dashboard</button></Link>
               </li>
             ) : (
               <li>
-                <Link to="/user/dashboard">User Dashboard</Link>
+                <Link to="/user/dashboard"><button className='butt'>User Dashboard</button></Link>
               </li>
             )}
             <li>
-              <button onClick={handleLogout} className="logout-button">Logout</button>
+              <button onClick={handleLogout} className="butt">Logout</button>
             </li>
           </>
         )}
         <li>
-          <Link to="/sustainability">Sustainability</Link>
+          <Link to="/sustainability"><button className='butt'>Sustainability</button></Link>
         </li>
         <li>
-          <Link to="/landing">About Us</Link>
+          <Link to="/landing"><button className='butt'>About Us</button></Link>
         </li>
       </ul>
     </nav>

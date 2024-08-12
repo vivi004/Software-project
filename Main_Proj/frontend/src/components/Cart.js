@@ -48,3 +48,4 @@ const Cart = ({ cartItems }) => {
 };
 
 export default Cart;
+
